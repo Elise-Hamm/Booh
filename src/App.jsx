@@ -1,4 +1,4 @@
-import PokemonCard from './components/PokemonCard';
+import PokemonCard from './components/PokemonCard'; 
 
 function App() {
   const pokemonList = [
@@ -12,12 +12,11 @@ function App() {
   },
 ];
   return (
-    <div>
-      <PokemonCard pokemonList={pokemonList}/>
-    </div>
-  );
+      <div>
+        <PokemonCard pokemonList={pokemonList}/>
+      </div>
+    );
 }
-
 
 
 export default App;
