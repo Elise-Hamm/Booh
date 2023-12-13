@@ -4,7 +4,7 @@ function PokemonCard(props) {
 
     console.log(props);
 
-    const pokemon = props.pokemonList[0];
+    const {pokemon} = props;
 
     return (
         <figure>
